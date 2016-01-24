@@ -1,0 +1,57 @@
+<!--Author: Niza Volair-->
+<!--Activity: Ajax Interactions-->
+<!--Date: 11-08-15-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <title>Activity: Ajax Interactions Niza Volair</title>
+    <script src='AjaxScripts.js'></script>
+  <div>
+  <h1>Weather Information</h1>
+  </head>
+  <body>
+      <form>
+      <fieldset>
+        <legend>Enter City</legend>
+        <label for="City"></label>
+        <input type="text" name="City" id="City">
+        <input type="submit" id="CitySubmit">
+      </fieldset>
+	   <fieldset>
+        <legend>Or Enter Zip</legend>
+        <label for="Zip"></label>
+        <input type="text" name="Zip" id="Zip">
+        <input type="submit" id="ZipSubmit">
+      </fieldset>
+    </form>
+	</div>
+    <div>
+      <h2>Result</h2>
+      <ul>
+        <li><span>City: </span><span id="city"></span></li>
+        <li><span>Weather: </span><span id="weather"></span></li>
+		<li><span>Temperature: </span><span id="temp"></span></li>
+		<li><span>Humidity: </span><span id="humid"></span></li>
+      </ul>
+    </div>
+	<div>
+	  <h3>Random Asynchronous Post</h3>
+		<form>
+		  <fieldset>
+			<legend>Enter Anything</legend>
+			<label for="random"></label>
+			<input type="text" name="random" id="random">
+			<input type="submit" id="RandomSubmit">
+		  </fieldset>
+		</form>
+	</div>
+	<div>
+      <h4>Result</h4>
+      <ul>
+        <li><span>Ditto: </span><span id="ditto"></span></li>
+      </ul>
+    </div>
+  </body>
+</html>
